@@ -4,17 +4,17 @@ function get(url) {
     httpRequest.open('GET', url);
     httpRequest.onload = function() {
       if (httpRequest.status === 200) {
-        // Resolve the promise with the response text
-        // success(httpRequest.responseText);
+        / Resolve the promise with the response text
+        / success(httpRequest.responseText);
         resolve(httpRequest.response);
       } else {
-        // Reject the promise with the status text
-        // fail(httpRequest.status);
+        / Reject the promise with the status text
+        / fail(httpRequest.status);
         reject(Error(httpRequest.statusText));
       }
     };
 
-    // Handle network errors
+    / Handle network errors
     httpRequest.onerror = function() {
       reject(Error('Network Error'));
     };
@@ -25,11 +25,11 @@ function get(url) {
 
 function successHandler(data) {
   const dataObj = JSON.parse(data);
-  // const weatherDiv = document.querySelector('#weather');
+  / const weatherDiv = document.querySelector('#weather');
   const div = `
         <h2 class="top">
         <img
-            src="http://openweathermap.org/img/w/${dataObj.weather[0].icon}.png"
+            src="http:/openweathermap.org/img/w/${dataObj.weather[0].icon}.png"
             alt="${dataObj.weather[0].description}"
             width="50"
             height="50"
@@ -41,7 +41,7 @@ function successHandler(data) {
         </p>
     `;
   return div;
-  // weatherDiv.innerHTML = weatherFragment;
+  / weatherDiv.innerHTML = weatherFragment;
 }
 
 function failHandler(status) {
@@ -56,7 +56,7 @@ function tempToC(kelvin) {
 }
 document.addEventListener('DOMContentLoaded', function() {
   const apiKey = 'b4ff6d25c41d84293546ceb6ec28832f';
-  //const apiKey = '';
+  /const apiKey = '';
   const weatherDiv = document.querySelector('#weather');
 
   const locations = [
@@ -66,25 +66,25 @@ document.addEventListener('DOMContentLoaded', function() {
     'mariposa,us'
   ];
   const urls = locations.map(function(location) {
-    return `https://api.openweathermap.org/data/2.5/weather?q=${location}&APPID=${apiKey}`;
+    return `https:/api.openweathermap.org/data/2.5/weather?q=${location}&APPID=${apiKey}`;
   });
 
-  // get(url, successHandler, failHandler);
-  // Promise.all([get(urls[0]), get(urls[1]), get(urls[2]), get(urls[3])])
-  //   .then(function(responses) {
-  //     return responses.map(function(response) {
-  //       return successHandler(response);
-  //     });
-  //   })
-  //   .then(function(literals) {
-  //     weatherDiv.innerHTML = `<h1>Weather</h1>${literals.join('')}`;
-  //   })
-  //   .catch(function(status) {
-  //     failHandler(status);
-  //   })
-  //   .finally(function() {
-  //     weatherDiv.classList.remove('hidden');
-  //   });
+  / get(url, successHandler, failHandler);
+  / Promise.all([get(urls[0]), get(urls[1]), get(urls[2]), get(urls[3])])
+  /   .then(function(responses) {
+  /     return responses.map(function(response) {
+  /       return successHandler(response);
+  /     });
+  /   })
+  /   .then(function(literals) {
+  /     weatherDiv.innerHTML = `<h1>Weather</h1>${literals.join('')}`;
+  /   })
+  /   .catch(function(status) {
+  /     failHandler(status);
+  /   })
+  /   .finally(function() {
+  /     weatherDiv.classList.remove('hidden');
+  /   });
 
   (async function() {
     try {

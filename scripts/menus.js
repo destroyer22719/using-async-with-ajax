@@ -1,19 +1,19 @@
-// desktop version sliding menus
+/ desktop version sliding menus
 
-//enable menu animation if the screen is set to desktop
+/enable menu animation if the screen is set to desktop
 function enableMenus() {
-  //create shortcut for nav element
+  /create shortcut for nav element
   var menu = $('#siteNav');
-  //check to see if we are on desktop .vs tablet or mobile
+  /check to see if we are on desktop .vs tablet or mobile
   if ($(document).width() > 768) {
-    //strip out no-js class if jQuery is running the animation
+    /strip out no-js class if jQuery is running the animation
     if ($('body').hasClass('no-js')) {
       $('body').removeClass('no-js');
     }
-    //attach a listener to each li that has a child ul, and then slide submenus down or up depending upon mouse position
+    /attach a listener to each li that has a child ul, and then slide submenus down or up depending upon mouse position
     menu.find('li').each(function() {
       if ($(this).find('ul').length > 0) {
-        // strip any existing events
+        / strip any existing events
         $(this).unbind();
         $(this).mouseenter(function() {
           $(this)
@@ -32,7 +32,7 @@ function enableMenus() {
   } else {
     menu.find('li').each(function() {
       if ($(this).find('ul').length > 0) {
-        // strip any existing events
+        / strip any existing events
         $(this).unbind();
       }
     });

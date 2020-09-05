@@ -54,7 +54,7 @@ body {
 
 /* ^3 ------------- home page specfic layout styles ----------- */
 #home #wrapper {
-	background: #000 url(..//using-async-with-ajax/images/home_page_back.jpg) no-repeat -50px 60px;
+	background: #000 url(../using-async-with-ajax/images/home_page_back.jpg) no-repeat -50px 60px;
 }
 #actionCall {
 	height: 268px;
