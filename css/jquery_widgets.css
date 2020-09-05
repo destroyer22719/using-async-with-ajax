@@ -1,5 +1,5 @@
 /*
- * jQuery UI CSS Framework 1.8.10
+ * jQuery UI /using-async-with-ajax/css Framework 1.8.10
  *
  * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
  * Dual licensed under the MIT or GPL Version 2 licenses.
@@ -30,7 +30,7 @@
 /* Icons
 ----------------------------------*/
 
-/* states and images */
+/* states and /using-async-with-ajax/images */
 #mainContent #mainArticle .ui-icon { display: block; text-indent: -99999px; overflow: hidden; background-repeat: no-repeat; }
 
 
@@ -42,7 +42,7 @@
 
 
 /*
- * jQuery UI CSS Framework 1.8.10
+ * jQuery UI /using-async-with-ajax/css Framework 1.8.10
  *
  * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
  * Dual licensed under the MIT or GPL Version 2 licenses.
@@ -59,26 +59,26 @@
 /*#mainContent #mainArticle .ui-widget { font-family: DejaVuSansCond, Helvetica, Arial, sans-serif; font-size: 100%; }*/
 #mainContent #mainArticle .ui-widget .ui-widget { font-size: 1em; line-height:1.5; }
 #mainContent #mainArticle .ui-widget input, #mainContent #mainArticle .ui-widget select, #mainContent #mainArticle .ui-widget textarea, #mainContent #mainArticle .ui-widget button { font-family: DejaVuSansCond, Helvetica,Arial, sans-serif; font-size: 1em; }
-#mainContent #mainArticle .ui-widget-content { border: 1px solid #dddddd; background: #eeeeee url(images/ui-bg_highlight-soft_100_eeeeee_1x100.png) 50% top repeat-x; color: #333333; }
+#mainContent #mainArticle .ui-widget-content { border: 1px solid #dddddd; background: #eeeeee url(/using-async-with-ajax/images/ui-bg_highlight-soft_100_eeeeee_1x100.png) 50% top repeat-x; color: #333333; }
 #mainContent #mainArticle .ui-widget-content a { color: #333333; }
-#mainContent #mainArticle .ui-widget-header { border: 1px solid #e78f08; background: #cb7d20 url(images/ui-bg_highlight-soft_35_cb7d20_1x100.png) 50% 50% repeat-x; color: #ffffff; font-weight: bold; }
+#mainContent #mainArticle .ui-widget-header { border: 1px solid #e78f08; background: #cb7d20 url(/using-async-with-ajax/images/ui-bg_highlight-soft_35_cb7d20_1x100.png) 50% 50% repeat-x; color: #ffffff; font-weight: bold; }
 #mainContent #mainArticle .ui-widget-header a { color: #ffffff; }
 
 /* Interaction states
 ----------------------------------*/
-#mainContent #mainArticle .ui-state-default, #mainContent #mainArticle .ui-widget-content .ui-state-default, #mainContent #mainArticle .ui-widget-header .ui-state-default { border: 1px solid #cccccc; background: #f6f6f6 url(images/ui-bg_highlight-soft_100_f6f6f6_1x100.png) 50% 50% repeat-x; font-weight: bold; color: #3c6b92; }
+#mainContent #mainArticle .ui-state-default, #mainContent #mainArticle .ui-widget-content .ui-state-default, #mainContent #mainArticle .ui-widget-header .ui-state-default { border: 1px solid #cccccc; background: #f6f6f6 url(/using-async-with-ajax/images/ui-bg_highlight-soft_100_f6f6f6_1x100.png) 50% 50% repeat-x; font-weight: bold; color: #3c6b92; }
 #mainContent #mainArticle .ui-state-default a, #mainContent #mainArticle .ui-state-default a:link, #mainContent #mainArticle .ui-state-default a:visited { color: #cb7d20; text-decoration: none; }
-#mainContent #mainArticle .ui-state-hover, #mainContent #mainArticle .ui-widget-content .ui-state-hover, #mainContent #mainArticle .ui-widget-header .ui-state-hover, #mainContent #mainArticle .ui-state-focus, #mainContent #mainArticle .ui-widget-content .ui-state-focus, #mainContent #mainArticle .ui-widget-header .ui-state-focus { border: 1px solid #fbcb09; background: #f0e7c7 url(images/ui-bg_glass_100_f0e7c7_1x400.png) 50% 50% repeat-x; font-weight: bold; color: #c77405; }
+#mainContent #mainArticle .ui-state-hover, #mainContent #mainArticle .ui-widget-content .ui-state-hover, #mainContent #mainArticle .ui-widget-header .ui-state-hover, #mainContent #mainArticle .ui-state-focus, #mainContent #mainArticle .ui-widget-content .ui-state-focus, #mainContent #mainArticle .ui-widget-header .ui-state-focus { border: 1px solid #fbcb09; background: #f0e7c7 url(/using-async-with-ajax/images/ui-bg_glass_100_f0e7c7_1x400.png) 50% 50% repeat-x; font-weight: bold; color: #c77405; }
 #mainContent #mainArticle .ui-state-hover a, #mainContent #mainArticle .ui-state-hover a:hover { color: #c77405; text-decoration: none; border:none; }
-#mainContent #mainArticle .ui-state-active, #mainContent #mainArticle .ui-widget-content .ui-state-active, #mainContent #mainArticle .ui-widget-header .ui-state-active { border: 1px solid #fbd850; background: #ffffff url(images/ui-bg_glass_65_ffffff_1x400.png) 50% 50% repeat-x; font-weight: bold; color: #eb8f00; }
+#mainContent #mainArticle .ui-state-active, #mainContent #mainArticle .ui-widget-content .ui-state-active, #mainContent #mainArticle .ui-widget-header .ui-state-active { border: 1px solid #fbd850; background: #ffffff url(/using-async-with-ajax/images/ui-bg_glass_65_ffffff_1x400.png) 50% 50% repeat-x; font-weight: bold; color: #eb8f00; }
 #mainContent #mainArticle .ui-state-active a, #mainContent #mainArticle .ui-state-active a:link, #mainContent #mainArticle .ui-state-active a:visited { color: #3c6b92; text-decoration: none; }
 #mainContent #mainArticle .ui-widget :active { outline: none; }
 
 /* Interaction Cues
 ----------------------------------*/
-#mainContent #mainArticle .ui-state-highlight, #mainContent #mainArticle .ui-widget-content .ui-state-highlight, #mainContent #mainArticle .ui-widget-header .ui-state-highlight  {border: 1px solid #fed22f; background: #ffe45c url(images/ui-bg_highlight-soft_75_ffe45c_1x100.png) 50% top repeat-x; color: #363636; }
+#mainContent #mainArticle .ui-state-highlight, #mainContent #mainArticle .ui-widget-content .ui-state-highlight, #mainContent #mainArticle .ui-widget-header .ui-state-highlight  {border: 1px solid #fed22f; background: #ffe45c url(/using-async-with-ajax/images/ui-bg_highlight-soft_75_ffe45c_1x100.png) 50% top repeat-x; color: #363636; }
 #mainContent #mainArticle .ui-state-highlight a, #mainContent #mainArticle .ui-widget-content .ui-state-highlight a, #mainContent #mainArticle .ui-widget-header .ui-state-highlight a { color: #363636; }
-#mainContent #mainArticle .ui-state-error, #mainContent #mainArticle .ui-widget-content .ui-state-error, #mainContent #mainArticle .ui-widget-header .ui-state-error {border: 1px solid #cd0a0a; background: #b81900 url(images/ui-bg_diagonals-thick_18_b81900_40x40.png) 50% 50% repeat; color: #ffffff; }
+#mainContent #mainArticle .ui-state-error, #mainContent #mainArticle .ui-widget-content .ui-state-error, #mainContent #mainArticle .ui-widget-header .ui-state-error {border: 1px solid #cd0a0a; background: #b81900 url(/using-async-with-ajax/images/ui-bg_diagonals-thick_18_b81900_40x40.png) 50% 50% repeat; color: #ffffff; }
 #mainContent #mainArticle .ui-state-error a, #mainContent #mainArticle .ui-widget-content .ui-state-error a, #mainContent #mainArticle .ui-widget-header .ui-state-error a { color: #ffffff; }
 #mainContent #mainArticle .ui-state-error-text, #mainContent #mainArticle .ui-widget-content .ui-state-error-text, #mainContent #mainArticle .ui-widget-header .ui-state-error-text { color: #ffffff; }
 #mainContent #mainArticle .ui-priority-primary, #mainContent #mainArticle .ui-widget-content .ui-priority-primary, #mainContent #mainArticle .ui-widget-header .ui-priority-primary { font-weight: bold; }
@@ -88,15 +88,15 @@
 /* Icons
 ----------------------------------*/
 
-/* states and images */
-#mainContent #mainArticle .ui-icon { width: 16px; height: 16px; background-image: url(images/ui-icons_222222_256x240.png); }
-#mainContent #mainArticle .ui-widget-content .ui-icon {background-image: url(images/ui-icons_222222_256x240.png); }
-#mainContent #mainArticle .ui-widget-header .ui-icon {background-image: url(images/ui-icons_ffffff_256x240.png); }
-#mainContent #mainArticle .ui-state-default .ui-icon { background-image: url(images/ui-icons_cb7d20_256x240.png); }
-#mainContent #mainArticle .ui-state-hover .ui-icon, #mainContent #mainArticle .ui-state-focus .ui-icon {background-image: url(images/ui-icons_ef8c08_256x240.png); }
-#mainContent #mainArticle .ui-state-active .ui-icon {background-image: url(images/ui-icons_ef8c08_256x240.png); }
-#mainContent #mainArticle .ui-state-highlight .ui-icon {background-image: url(images/ui-icons_228ef1_256x240.png); }
-#mainContent #mainArticle .ui-state-error .ui-icon, #mainContent #mainArticle .ui-state-error-text .ui-icon {background-image: url(images/ui-icons_ffd27a_256x240.png); }
+/* states and /using-async-with-ajax/images */
+#mainContent #mainArticle .ui-icon { width: 16px; height: 16px; background-image: url(/using-async-with-ajax/images/ui-icons_222222_256x240.png); }
+#mainContent #mainArticle .ui-widget-content .ui-icon {background-image: url(/using-async-with-ajax/images/ui-icons_222222_256x240.png); }
+#mainContent #mainArticle .ui-widget-header .ui-icon {background-image: url(/using-async-with-ajax/images/ui-icons_ffffff_256x240.png); }
+#mainContent #mainArticle .ui-state-default .ui-icon { background-image: url(/using-async-with-ajax/images/ui-icons_cb7d20_256x240.png); }
+#mainContent #mainArticle .ui-state-hover .ui-icon, #mainContent #mainArticle .ui-state-focus .ui-icon {background-image: url(/using-async-with-ajax/images/ui-icons_ef8c08_256x240.png); }
+#mainContent #mainArticle .ui-state-active .ui-icon {background-image: url(/using-async-with-ajax/images/ui-icons_ef8c08_256x240.png); }
+#mainContent #mainArticle .ui-state-highlight .ui-icon {background-image: url(/using-async-with-ajax/images/ui-icons_228ef1_256x240.png); }
+#mainContent #mainArticle .ui-state-error .ui-icon, #mainContent #mainArticle .ui-state-error-text .ui-icon {background-image: url(/using-async-with-ajax/images/ui-icons_ffd27a_256x240.png); }
 
 /* positioning */
 .ui-icon-carat-1-n { background-position: 0 0; }
@@ -291,8 +291,8 @@
 #mainContent #mainArticle .ui-corner-all { -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px; }
 
 /* Overlays */
-#mainContent #mainArticle .ui-widget-overlay { background: #666666 url(images/ui-bg_diagonals-thick_20_666666_40x40.png) 50% 50% repeat; opacity: .50;filter:Alpha(Opacity=50); }
-#mainContent #mainArticle .ui-widget-shadow { margin: -5px 0 0 -5px; padding: 5px; background: #000000 url(images/ui-bg_flat_10_000000_40x100.png) 50% 50% repeat-x; opacity: .20;filter:Alpha(Opacity=20); -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }/*
+#mainContent #mainArticle .ui-widget-overlay { background: #666666 url(/using-async-with-ajax/images/ui-bg_diagonals-thick_20_666666_40x40.png) 50% 50% repeat; opacity: .50;filter:Alpha(Opacity=50); }
+#mainContent #mainArticle .ui-widget-shadow { margin: -5px 0 0 -5px; padding: 5px; background: #000000 url(/using-async-with-ajax/images/ui-bg_flat_10_000000_40x100.png) 50% 50% repeat-x; opacity: .20;filter:Alpha(Opacity=20); -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }/*
  * jQuery UI Accordion 1.8.10
  *
  * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
